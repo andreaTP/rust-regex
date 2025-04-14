@@ -18,8 +18,9 @@ bench = false
 
 # This crate has many many many features. See the crate docs for a description
 # of each and when you might want to use them.
+# "unicode"
 [features]
-default = ["std", "syntax", "perf", "unicode", "meta", "nfa", "dfa", "hybrid"]
+default = ["std", "syntax", "perf", "meta", "nfa", "dfa", "hybrid"]
 std = ["regex-syntax?/std", "memchr?/std", "aho-corasick?/std", "alloc"]
 alloc = []
 logging = ["dep:log", "aho-corasick?/logging", "memchr?/logging"]
