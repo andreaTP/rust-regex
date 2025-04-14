@@ -177,7 +177,7 @@ default-features = false
 # For the actual regex engines.
 [dependencies.regex-automata]
 path = "regex-automata"
-version = "0.4.8"
+version = "0.4.9"
 default-features = false
 # "meta", "nfa-pikevm"
 features = ["alloc", "syntax"]
