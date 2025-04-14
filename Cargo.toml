@@ -29,8 +29,9 @@ members = [
 
 # Features are documented in the "Crate features" section of the crate docs:
 # https://docs.rs/regex/*/#crate-features
+# "unicode",
 [features]
-default = ["std", "perf", "unicode", "regex-syntax/default"]
+default = ["std", "perf", "regex-syntax/default"]
 
 # ECOSYSTEM FEATURES
 
@@ -178,7 +179,8 @@ default-features = false
 path = "regex-automata"
 version = "0.4.8"
 default-features = false
-features = ["alloc", "syntax", "meta", "nfa-pikevm"]
+# "meta"
+features = ["alloc", "syntax", "nfa-pikevm"]
 
 # For parsing regular expressions.
 [dependencies.regex-syntax]
