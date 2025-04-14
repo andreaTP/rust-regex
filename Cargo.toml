@@ -29,8 +29,9 @@ members = [
 
 # Features are documented in the "Crate features" section of the crate docs:
 # https://docs.rs/regex/*/#crate-features
+# "perf", "unicode",
 [features]
-default = ["std", "perf", "unicode", "regex-syntax/default"]
+default = ["std", "regex-syntax/default"]
 
 # ECOSYSTEM FEATURES
 
