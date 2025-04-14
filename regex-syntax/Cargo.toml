@@ -12,8 +12,9 @@ rust-version = "1.65"
 
 # Features are documented in the "Crate features" section of the crate docs:
 # https://docs.rs/regex-syntax/*/#crate-features
+# "unicode"
 [features]
-default = ["std", "unicode"]
+default = ["std"]
 std = []
 arbitrary = ["dep:arbitrary"]
 
